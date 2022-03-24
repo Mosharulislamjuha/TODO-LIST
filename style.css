@@ -1,0 +1,92 @@
+
+.container {
+  background: #bacfb3;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto ;
+  overflow:hidden;
+  border-radius: 10px;
+  border:10px solid #a72222;
+  font-family: cursive;
+}
+
+h1,h2 {
+  margin: auto;
+  text-align: center;
+  
+}
+.leading{
+  margin:20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding:10px;
+  color: #030303;
+  margin-bottom: 10px;
+}
+.side{
+  padding: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.new-task-container {
+  text-align:left;
+  
+}
+.player{
+  background-color: rgb(39, 19, 19);
+  color: aliceblue;
+  
+}
+.player-list{
+  text-align: left;
+  
+}
+
+.box {
+  width: 60%;
+  padding: 10px;
+  border: 2px solid #332724;
+  border-radius: 5px;
+  background: rgb(156, 172, 100);
+  margin: 15px 0;
+}
+
+.todo-list {
+  float: left;
+  width: 40%;
+}
+
+.complete-list {
+  float: right;
+  width: 46%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px dotted rgb(223, 214, 214);
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
